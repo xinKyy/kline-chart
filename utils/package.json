@@ -1,0 +1,25 @@
+{
+  "name": "@nbit/utils",
+  "version": "1.0.1-beta.58",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "description": "@nbit/utils",
+  "sideEffects": false,
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rimraf es && rimraf lib && rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/lodash": "^4.14.182"
+  },
+  "dependencies": {
+    "decimal.js": "^10.3.1",
+    "lodash": "^4.17.21"
+  }
+}

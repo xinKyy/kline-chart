@@ -1,0 +1,27 @@
+{
+  "name": "@nbit/chart-utils",
+  "version": "1.0.0-beta.50",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "description": "@nbit/chart-utils",
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+  ],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "scripts": {
+    "build": "rimraf es && rimraf lib && rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-dom": "17.0.0",
+    "rollup-plugin-import-css": "^3.0.3"
+  },
+  "dependencies": {
+    "dayjs": "1.11.3"
+  }
+}

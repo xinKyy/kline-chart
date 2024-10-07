@@ -1,0 +1,20 @@
+{
+  "name": "@nbit/tradingview",
+  "version": "1.1.0-beta.3",
+  "type": "module",
+  "main": "lib/charting_library.cjs.js",
+  "module": "lib/charting_library.esm.js",
+  "types": "lib/charting_library.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "",
+    "lint": "",
+    "build": "",
+    "docs": "docsify serve ./docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.3"
+  }
+}

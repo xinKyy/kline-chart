@@ -1,0 +1,178 @@
+.rel-chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.rel-chart .chart {
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+}
+
+.rel-chart .common-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rel-chart .k-data {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 52px);
+  height: 18px;
+  padding: 0 0  0 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.rel-chart .k-line-ind-wrap {
+  height: 18px;
+  line-height: 18px;
+}
+
+.rel-chart .ma {
+  position: absolute;
+  top: 21px;
+  left: 3px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 52px);
+  height: 36px;
+  padding: 0 0  0 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.rel-chart .ma-child {
+  margin-right: 5px;
+}
+
+/** 参考biance */
+.rel-chart .common-ml-5 {
+  margin-left: 5px;
+}
+
+.rel-chart .common-sub-ind {
+  position: absolute;
+  left: 3px;
+  z-index: 3;
+  display: flex;
+  max-width: calc(100% - 52px);
+  height: 18px;
+  padding: 0 0  0 32px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+}
+
+.rel-chart .chart-set-icon-wrap svg {
+  width: 14px;
+  height: 14px;
+}
+
+.rel-chart .have-hidden-hover, .have-set-hover, .have-delete-hover {
+  display: none;
+}
+
+.rel-chart .chart-hidden:hover .have-hidden-hover {
+  display: block;
+}
+
+.rel-chart .chart-hidden:hover .not-hidden-hover {
+  display: none;
+}
+
+.rel-chart .chart-set:hover .have-set-hover {
+  display: block;
+}
+
+.rel-chart .chart-set:hover .not-set-hover {
+  display: none;
+}
+
+.rel-chart .chart-delete:hover .have-delete-hover {
+  display: block;
+}
+
+.rel-chart .chart-delete:hover .not-delete-hover {
+  display: none;
+}
+
+
+
+.rel-chart .expand-icon-wrap {
+  display: inline-block;
+  width: 10px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.rel-chart .expand-icon-wrap svg {
+  width: 8px!important;
+  height: 8px!important;
+}
+
+.rel-chart .chart-max-or-min-price {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+
+  /* transform: scale(0.83); */
+}
+
+.chart-order-pop {
+  width: 480px;
+
+  .arco-modal-title {
+    color: var(--text_color_01);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .arco-table-th {
+    color: var(--text_color_02);
+    background: var(--bg-color);
+  }
+
+
+  .arco-table-td {
+    color: var(--text_color_01);
+    background: var(--bg-color);
+  }
+}
+
+.chart-order-pop .chart-order-table {
+  max-height: 284px;
+  overflow-y: auto;
+}
+
+/* .rel-chart .cross-hair-point {
+  position: relative;
+  width: 5px;
+  height: 20px;
+  background: #000000;
+}
+
+.rel-chart .cross-hair-point::after {
+  position: absolute;
+  top: 7.5px;
+  left: -7.5px;
+  width: 20px;
+  height: 5px;
+  background: #000000;
+  content: '';
+} */

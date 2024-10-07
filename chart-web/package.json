@@ -1,0 +1,35 @@
+{
+  "name": "@nbit/chart-web",
+  "version": "1.0.0-beta.112",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "description": "@nbit/chart-web",
+  "files": [
+    "src",
+    "package.json"
+  ],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "scripts": {
+    "build": "rimraf es && rimraf lib && rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-dom": "17.0.0",
+    "rollup-plugin-import-css": "^3.0.3"
+  },
+  "dependencies": {
+    "@nbit/chart-utils": "1.0.0-beta.50",
+    "@nbit/tradingview": "1.1.0-beta.3",
+    "ahooks": "^3.4.1",
+    "classnames": "^2.3.1",
+    "dayjs": "1.11.3",
+    "decimal.js": "^10.3.1",
+    "@nbit/lightweight-charts": "0.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-inject": "0.3.0"
+  }
+}

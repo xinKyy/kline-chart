@@ -1,0 +1,22 @@
+export declare const s3VpnConfig: {
+    originProdS3Domain: string;
+    fastProdS3Domain: string;
+    originTestS3Domain: string;
+    fastTestS3Domain: string;
+    mergeModeS3ProdDomain: string;
+    originDevS3Domain: string;
+    fastDevS3Domain: string;
+    originS3Domain: string;
+    fastS3Domain: string;
+    fastS3DomainOld: string;
+    originOSSDomain: string;
+    fastOSSDomain: string;
+    originOSSDomainOld: string;
+    fastOSSDomainOld: string;
+    originDevS3ProdUploadDomain: string;
+    fastDevS3ProdUploadDomain: string;
+    originDevS3DevUploadDomain: string;
+    fastDevS3DevUploadDomain: string;
+    mergeModeS3TestDomain: string;
+    mergeModeS3DevDomain: string;
+};
